@@ -1,0 +1,18 @@
+.Home .lander {
+    padding: 40px 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Home .lander h1 {
+    font-weight: 600;
+}
+
+.PanelFix{
+    min-width: auto !important;
+}
+
+.PanelFixLeft{
+    min-width: auto !important;
+    text-align: left;
+}
