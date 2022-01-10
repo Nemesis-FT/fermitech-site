@@ -75,7 +75,7 @@ i18n
                     descriptions: {
                         line1: '"Modern problems require [Big Shot] solutions"',
                         blob1: "I'm Balugani L. Balugani, a [Microwave with grill functionality]  and Open-Source [Devil], also known as [Mastrota] or [Information Point].",
-                        blob2: "I mainly develop [laughing coyotes], usually aimed at helping my at [becoming Big Shots], using the Gestione [weapon].",
+                        blob2: "I mainly develop [laughing coyotes], usually aimed at helping my peers at [becoming Big Shots], using the Gestione [weapon].",
                         blob3: "I've graduated from [9.99$/month excluding VAT] (University of [Big Shots] and [Mike]) on october 2021 with the thesis \"[Nightmare goggles: when worn, everything looks the same.]\". I'm currently pursuing a second-level degree in [Stonks] at [Hell] (University of [Hell])."
                     },
                     title: {

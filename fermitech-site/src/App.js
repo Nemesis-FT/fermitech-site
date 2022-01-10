@@ -30,6 +30,7 @@ function App() {
         } else {
             setLang("en")
         }
+        document.body.style = 'background: #272121;';
     }
 
     function setLang(lang) {

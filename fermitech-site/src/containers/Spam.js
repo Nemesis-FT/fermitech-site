@@ -8,12 +8,15 @@ import i18n from "i18next";
 
 export default function Spam(props) {
     const {t} = useTranslation();
-    const [status, setStatus] = useState("me");
+    const [status, setStatus] = useState(null);
 
     useEffect((e=>{
         i18n.changeLanguage("spamtron")
         props.setTheme("paper")
+        document.body.style = 'background: white;';
     }), [status])
+
+    useEffect((e=>{setStatus("me")}), [])
 
     return (
         <div className={Style.Home}>
