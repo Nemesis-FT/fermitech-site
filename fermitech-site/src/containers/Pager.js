@@ -1,15 +1,19 @@
 import React, {useState} from "react";
 import { useTranslation, Trans } from 'react-i18next';
+import Projects from "./content/Projects";
+import Info from "./content/Info"
+import Style from "./Home.module.css"
+
 
 export default function Pager(props) {
     const { t } = useTranslation();
     return (
         <div>
             {props.status === "me" &&(
-                <div>ME</div>
+                <Info/>
             )}
             {props.status === "projects" &&(
-                <div>PROJECTS</div>
+                <Projects/>
             )}
             {props.status === "contact" &&(
                 <div>CONTACT</div>

@@ -1,0 +1,19 @@
+.PanelFix{
+    min-width: auto !important;
+}
+
+.PanelFixLeft{
+    min-width: auto !important;
+    text-align: left;
+}
+
+.PanelFixMiddle{
+    align-items: center !important;
+    text-align: left;
+}
+
+.LoaderCenter{
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+}

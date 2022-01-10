@@ -23,7 +23,7 @@ i18n
                         line1: '"Modern problems require software solutions"',
                         blob1: "I'm Lorenzo Balugani, a Computer Scientist and Open-Source developer, also known as Nemesis or Balu.",
                         blob2: "I mainly develop web applications, usually aimed at helping my peers at reaching their objectives, using the Gestione framework.",
-                        blob3: "Through this website, you can learn a bit about me, discover the projects of which I'm most proud and get in touch. If you want, you can also get an insight in my software shenanigans."
+                        blob3: "I've graduated from UniMore (University of Modena and Reggio Emilia) on october 2021 after accomplishing a technical diploma in informatics and telecommunications. I'm currently pursuing a second-level degree in Computer Science at UniBo (University of Bologna)."
                     },
                     title: {
                         line1: "Fermitech Softworks"
