@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from "react";
 import Style from "./Panel.module.css";
-import {Heading, Image, Panel, Chapter} from "@steffo/bluelib-react";
+import {Heading, Image, Panel, Chapter, Anchor} from "@steffo/bluelib-react";
 import {useTranslation, Trans} from 'react-i18next';
 import Project from "./Project";
 import {Oval} from "react-loader-spinner";
 
-export default function Projects() {
+export default function Projects(props) {
     const {t} = useTranslation();
     const [projects, setProjects] = useState(null);
 
@@ -30,14 +30,21 @@ export default function Projects() {
         }
     }
 
-    if(projects){
-    return (
-        <Chapter>
-            {projects.map(project => <Project project={project}/>)}
-        </Chapter>
-
-    );}
-    else{return(<div className={Style.LoaderCenter}>
-        <Oval arialLabel="loading-indicator" color={"#e14619"} wrapperStyle={""}/>
-    </div>)}
+    if (projects) {
+        return (
+            <div>
+                <Chapter>
+                    {projects.map(project => <Project project={project}/>)}
+                </Chapter>
+                <Anchor href={"https://github.com/LBindustries?tab=repositories"}><Trans i18nKey={"content.lot_more"}/></Anchor>
+            </div>
+        );
+    } else {
+        return (<div className={Style.LoaderCenter}>
+            {props.mode !== "spamtron" && (
+            <Oval arialLabel="loading-indicator" color={"#e14619"}/>)}
+            {props.mode === "spamtron" && (
+                <Oval arialLabel="loading-indicator" color={"#000000"}/>)}
+        </div>)
+    }
 }

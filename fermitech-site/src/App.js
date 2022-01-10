@@ -13,6 +13,7 @@ function App() {
     const [hidden, setHidden] = useState(true)
     const [language, setLanguage] = useState("en")
     const {t, i18n} = useTranslation();
+    const [theme, setTheme] = useState("amber")
     const lngs = {
         en: {nativeName: 'English'},
         it: {nativeName: 'Italiano'}
@@ -23,7 +24,7 @@ function App() {
 
     function onLoad() {
         let a = localStorage.getItem("lang")
-        if (a) {
+        if (a && a!=="spamtron") {
             i18n.changeLanguage(a)
             setLanguage(a)
         } else {
@@ -40,11 +41,11 @@ function App() {
 
     return (
 
-        <Bluelib theme={"amber"}>
+        <Bluelib theme={theme}>
             <LayoutThreeCol>
                 <LayoutThreeCol.Center>
                     <div className="App">
-                        <Routes/>
+                        <Routes setTheme={setTheme}/>
 
                         <div className="Fermitech-Footer">
                             <div>

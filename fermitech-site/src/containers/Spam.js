@@ -1,13 +1,20 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import Style from "./Home.module.css";
 import {Heading, Image, Panel} from "@steffo/bluelib-react";
 import {useTranslation, Trans} from 'react-i18next';
 import Ribbon from "./Ribbon";
 import Pager from "./Pager";
+import i18n from "i18next";
 
-export default function Home() {
+export default function Spam(props) {
     const {t} = useTranslation();
     const [status, setStatus] = useState("me");
+
+    useEffect((e=>{
+        i18n.changeLanguage("spamtron")
+        props.setTheme("paper")
+    }), [status])
+
     return (
         <div className={Style.Home}>
             <div className={Style.lander}>
@@ -16,7 +23,7 @@ export default function Home() {
             </div>
 
             <Ribbon setStatus={setStatus} status={status}/>
-            <Pager status={status} mode={"normal"}/>
+            <Pager status={status} mode={"spamtron"}/>
         </div>
 
     );

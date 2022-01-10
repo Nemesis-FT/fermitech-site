@@ -10,10 +10,10 @@ export default function Ribbon(props) {
 
     return (
         <div className={Style.chapter}>
-            <Button onClick={e=>props.setStatus("me")}><FontAwesomeIcon icon={faUser}/></Button>
-            <Button onClick={e=>props.setStatus("projects")}><FontAwesomeIcon icon={faProjectDiagram}/></Button>
-            <Button onClick={e=>props.setStatus("contact")}><FontAwesomeIcon icon={faMailBulk}/></Button>
-            <Button onClick={e=>props.setStatus("faqs")}><FontAwesomeIcon icon={faQuestion}/></Button>
+            <Button onClick={e=>props.setStatus("me")} aria-label="About me"><FontAwesomeIcon icon={faUser} /></Button>
+            <Button onClick={e=>props.setStatus("projects")} aria-label="About my projects"><FontAwesomeIcon icon={faProjectDiagram} /></Button>
+            <Button onClick={e=>props.setStatus("contact")} aria-label="Contact me"><FontAwesomeIcon icon={faMailBulk} /></Button>
+            <Button onClick={e=>props.setStatus("faqs")} aria-label="FAQs"><FontAwesomeIcon icon={faQuestion} /></Button>
         </div>
     );
 }
