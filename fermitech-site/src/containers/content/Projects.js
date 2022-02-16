@@ -7,21 +7,28 @@ import {Oval} from "react-loader-spinner";
 
 export default function Projects(props) {
     const {t} = useTranslation();
-    const [projects, setProjects] = useState(null);
+    const [projects, setProjects] = useState([
+        {repo: "Erre2.0", description:"A complete rework of Erre2, the easy-to-use summary manager, built on FastApi.", link:"https://github.com/lbindustries/Erre2.0"},
+        {repo: "Condivisione-Fermi", description: "Peer to peer lesson manager webapp, currently in use @ ITIS Enrico Fermi.", link: "https://github.com/lbindustries/Condivisione-Fermi"},
+        {repo: "Project-R", link:"https://github.com/Fermitech-Softworks/ProjectR",description:"A Django Webapp made for the Tecnologie Web exam @ UniMoRe"},
+        {repo:"impressive-strawberry",link:"https://github.com/RYGhub/impressive-strawberry",description:"Achievements-as-a-service"},
+        {repo:"Monitoraggio",link:"https://github.com/lbindustries/Monitoraggio",description:"Flask webapp that tracks equipment logs written to be used on the CNR-ISAC lab on Monte Cimone."}
+    ]);
 
-    useEffect(() => {
-        load()
-    }, [t])
+    //useEffect(() => {
+    //    load()
+    //}, [t])
 
 
     async function load() {
-        const response = await fetch("https://gh-pinned-repos.egoist.sh//?username=lbindustries", {
+        const response = await fetch("https://gh-pinned-repos.egoist.sh/?username=lbindustries", {
             method: "GET",
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
-                'Access-Control-Allow-Headers': "*"
+                'Access-Control-Allow-Origin': "*"
             },
+            mode: "no-cors"
         });
         if (response.status === 200) {
             let values = await response.json()
@@ -42,7 +49,7 @@ export default function Projects(props) {
     } else {
         return (<div className={Style.LoaderCenter}>
             {props.mode !== "spamtron" && (
-            <Oval arialLabel="loading-indicator" color={"#e14619"}/>)}
+                <Oval arialLabel="loading-indicator" color={"#e14619"}/>)}
             {props.mode === "spamtron" && (
                 <Oval arialLabel="loading-indicator" color={"#000000"}/>)}
         </div>)
