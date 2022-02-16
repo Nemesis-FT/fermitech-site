@@ -15,7 +15,7 @@ export default function Projects(props) {
 
 
     async function load() {
-        const response = await fetch("https://gh-pinned-repos-5l2i19um3.vercel.app/?username=lbindustries", {
+        const response = await fetch("https://gh-pinned-repos.egoist.sh//?username=lbindustries", {
             method: "GET",
             headers: {
                 'Accept': 'application/json',
