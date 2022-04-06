@@ -20,7 +20,7 @@ export default function Contact(props) {
                 {props.mode === "spamtron" && (
                     <Panel><Anchor href={"mailto:lorenzo.balugani@gmail.com"}><FontAwesomeIcon icon={faAt}/> Email</Anchor></Panel>
                 )}
-                <Panel><Anchor href={"https://github.com/LBindustries"}><FontAwesomeIcon icon={faCodeBranch}/> Github (Lorenzo)</Anchor></Panel>
+                <Panel><Anchor href={"https://github.com/Nemesis-FT"}><FontAwesomeIcon icon={faCodeBranch}/> Github (Lorenzo)</Anchor></Panel>
                 <Panel><Anchor href={"https://github.com/Fermitech-Softworks"}><FontAwesomeIcon icon={faCodeBranch}/> Github (Fermitech)</Anchor></Panel>
                 <Panel><Anchor href={"https://www.linkedin.com/in/lorenzo-balugani-1164471b7/"}><FontAwesomeIcon icon={faSuitcase}/> Linkedin</Anchor></Panel>
                 <Panel><Anchor href={"https://ko-fi.com/evilbalu"}><FontAwesomeIcon icon={faCoffee}/> Ko-Fi</Anchor></Panel>

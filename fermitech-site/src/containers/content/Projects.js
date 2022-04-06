@@ -8,11 +8,11 @@ import {Oval} from "react-loader-spinner";
 export default function Projects(props) {
     const {t} = useTranslation();
     const [projects, setProjects] = useState([
-        {repo: "Erre2.0", description:"A complete rework of Erre2, the easy-to-use summary manager, built on FastApi.", link:"https://github.com/lbindustries/Erre2.0"},
-        {repo: "Condivisione-Fermi", description: "Peer to peer lesson manager webapp, currently in use @ ITIS Enrico Fermi.", link: "https://github.com/lbindustries/Condivisione-Fermi"},
+        {repo: "Erre2.0", description:"A complete rework of Erre2, the easy-to-use summary manager, built on FastApi.", link:"https://github.com/Nemesis-FT/Erre2.0"},
+        {repo: "Condivisione-Fermi", description: "Peer to peer lesson manager webapp, currently in use @ ITIS Enrico Fermi.", link: "https://github.com/Nemesis-FT/Condivisione-Fermi"},
         {repo: "Project-R", link:"https://github.com/Fermitech-Softworks/ProjectR",description:"A Django Webapp made for the Tecnologie Web exam @ UniMoRe"},
         {repo:"impressive-strawberry",link:"https://github.com/RYGhub/impressive-strawberry",description:"Achievements-as-a-service"},
-        {repo:"Monitoraggio",link:"https://github.com/lbindustries/Monitoraggio",description:"Flask webapp that tracks equipment logs written to be used on the CNR-ISAC lab on Monte Cimone."}
+        {repo:"Monitoraggio",link:"https://github.com/Nemesis-FT/Monitoraggio",description:"Flask webapp that tracks equipment logs written to be used on the CNR-ISAC lab on Monte Cimone."}
     ]);
 
     //useEffect(() => {
@@ -43,7 +43,7 @@ export default function Projects(props) {
                 <Chapter>
                     {projects.map(project => <Project project={project}/>)}
                 </Chapter>
-                <Anchor href={"https://github.com/LBindustries?tab=repositories"}><Trans i18nKey={"content.lot_more"}/></Anchor>
+                <Anchor href={"https://github.com/Nemesis-FT?tab=repositories"}><Trans i18nKey={"content.lot_more"}/></Anchor>
             </div>
         );
     } else {
