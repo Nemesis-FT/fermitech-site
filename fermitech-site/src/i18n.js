@@ -22,11 +22,11 @@ i18n
                     descriptions: {
                         line1: '"Modern problems require software solutions"',
                         blob1: "I'm Lorenzo Balugani, a Computer Scientist and Open-Source developer, also known as Nemesis or Balu.",
-                        blob2: "I mainly develop web applications, usually aimed at helping my peers at reaching their objectives, using the Gestione framework.",
-                        blob3: "I've graduated from UniMore (University of Modena and Reggio Emilia) on october 2021 with the thesis \"BrumonApp: bringing the car disposal industry to the Web 2.0\". I'm currently pursuing a second-level degree in Computer Science at UniBo (University of Bologna)."
+                        blob2: "I mainly develop web and microservices-oriented applications using the Gestione framework.",
+                        blob3: "I've graduated from UniMore (University of Modena and Reggio Emilia) on october 2021 with the thesis \"BrumonApp: bringing the car disposal industry to the Web 2.0\". On march 2024 I should achieve my Master's Degree in Computer Science at UniBo (University of Bologna - Alma Mater Studiorum), with the thesis \"Micro Anagrafica: microservices architecture as source and aggregator of personal data\" developed within Cineca."
                     },
                     title: {
-                        line1: "Fermitech Softworks"
+                        line1: "Fermitech Softworks, aka Lorenzo Balugani"
                     },
                     not_found:{
                         message1: "You're lost, aren't you?",
@@ -58,10 +58,31 @@ i18n
                     },
                     descriptions: {
                         line1: '"Problemi moderni necessitano di soluzioni software."',
-                        blob: "In questo luogo puoi esplorare i miei lavori come sviluppatore di software open-source, e contattarmi se necessario."
+                        blob1: "Sono Lorenzo Balugani, laureato in Informatica e sviluppatore di software Open-source, anche noto come Nemesis oppure Balu.",
+                        blob2: "Sviluppo principalmente applicazioni web e a microservizi, utilizzando il framework Gestione.",
+                        blob3: "Mi sono laureato all'UniMore (Università di Modena e Reggio Emilia) nell'ottobre 2021 con la tesi \"BrumonApp: portare l'industria delle autodemolizioni nel Web 2.0\". Otterrò nel marzo 2024 la laurea magistrale in Informatica presso l'UniBo (Università di Bologna - Alma Mater Studiorum) con la tesi \"Micro Anagrafica: aggregatore e sorgente unica di dati anagrafici a microservizi\", svolta presso Cineca."
                     },
                     title: {
-                        line1: "Fermitech Softworks"
+                        line1: "Fermitech Softworks, ovvero Lorenzo Balugani"
+                    },
+                    not_found:{
+                        message1: "Ti sei perso, vero?",
+                        message2: "Lascia che ti rimetta sulla strada giusta...",
+                        message3: "Clicca qui per proseguire.",
+                    },
+                    content:{
+                        lot_more: "E tanto altro!",
+                        get_in_touch: "Se vuoi contattarmi, puoi farlo usando i metodi sottostanti.",
+                        faqs:{
+                            one:{
+                                q: "Come mai \"Fermitech Softworks\"? E' un soprannome?",
+                                a: "Ho usato per la prima volta lo pseudonimo all'interno dell'applicativo Condivisione, la mia tesina delle superiori. Era un progetto a cui tenenvo parecchio, e dato che c'era intenzione di mantenerlo attivo come un servizio offerto dalla scuola decisi di farlo sembrare creato da una vera azienda. Nonostante fosse più uno scherzo che altro, alcune persone l'hanno preso sul serio, quindi è diventato uno pseudonimo che ancora uso."
+                            },
+                            two:{
+                                q: "Cos'è il \"Framework Gestione\"?",
+                                a: "E' cominciato come uno scherzo tra me e i miei professori all'ITIS Enrico Fermi. Gestione era un applicativo web che avevo sviluppato e installato sulla macchina virtuale nei laboratorio, e il suo scopo era consegnare esercizi, appunti e tenere traccia delle citazioni dei miei studenti. \"Basato su Gestione\" divenne molto rapidamente una gag ricorrente, e indica come un software utilizzi - fondamentalmente - le stesse tecnologie, e le stesse utility che ho sviluppato negli anni."
+                            }
+                        }
                     }
                 }
             },
