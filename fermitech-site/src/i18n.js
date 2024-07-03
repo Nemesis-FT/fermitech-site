@@ -23,7 +23,7 @@ i18n
                         line1: '"Modern problems require software solutions"',
                         blob1: "I'm Lorenzo Balugani, a Computer Scientist and Open-Source developer, also known as Nemesis or Balu.",
                         blob2: "I mainly develop web and microservices-oriented applications using the Gestione framework.",
-                        blob3: "I've graduated from UniMore (University of Modena and Reggio Emilia) on october 2021 with the thesis \"BrumonApp: bringing the car disposal industry to the Web 2.0\". On march 2024 I should achieve my Master's Degree in Computer Science at UniBo (University of Bologna - Alma Mater Studiorum), with the thesis \"Micro Anagrafica: microservices architecture as source and aggregator of personal data\" developed within Cineca."
+                        blob3: "I've graduated from UniMore (University of Modena and Reggio Emilia) on october 2021 with the thesis \"BrumonApp: bringing the car disposal industry to the Web 2.0\". On march 2024 I achieved my Master's Degree in Computer Science at UniBo (University of Bologna - Alma Mater Studiorum), with the thesis \"Micro Anagrafica: microservices architecture as source and aggregator of personal data\" developed within Cineca, thus ending my studies. I'm now employed as a backend developer at Cineca, the italian universities consortium and biggest computing centre in Italy."
                     },
                     title: {
                         line1: "Fermitech Softworks, aka Lorenzo Balugani"
@@ -60,7 +60,7 @@ i18n
                         line1: '"Problemi moderni necessitano di soluzioni software."',
                         blob1: "Sono Lorenzo Balugani, laureato in Informatica e sviluppatore di software Open-source, anche noto come Nemesis oppure Balu.",
                         blob2: "Sviluppo principalmente applicazioni web e a microservizi, utilizzando il framework Gestione.",
-                        blob3: "Mi sono laureato all'UniMore (Università di Modena e Reggio Emilia) nell'ottobre 2021 con la tesi \"BrumonApp: portare l'industria delle autodemolizioni nel Web 2.0\". Otterrò nel marzo 2024 la laurea magistrale in Informatica presso l'UniBo (Università di Bologna - Alma Mater Studiorum) con la tesi \"Micro Anagrafica: aggregatore e sorgente unica di dati anagrafici a microservizi\", svolta presso Cineca."
+                        blob3: "Mi sono laureato all'UniMore (Università di Modena e Reggio Emilia) nell'ottobre 2021 con la tesi \"BrumonApp: portare l'industria delle autodemolizioni nel Web 2.0\". Ho ottenuto nel marzo 2024 la laurea magistrale in Informatica presso l'UniBo (Università di Bologna - Alma Mater Studiorum) con la tesi \"Micro Anagrafica: aggregatore e sorgente unica di dati anagrafici a microservizi\", svolta presso Cineca, terminando così i miei studi. Ho incominciato a lavorare nel maggio 2024 presso Cineca, il consorzio delle università italiane e principale centro di calcolo a livello nazionale."
                     },
                     title: {
                         line1: "Fermitech Softworks, ovvero Lorenzo Balugani"
